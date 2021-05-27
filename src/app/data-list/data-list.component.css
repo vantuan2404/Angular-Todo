@@ -1,0 +1,63 @@
+.data{
+  margin-top: 20px;
+  width: 80%;
+  margin:40px auto 0 auto;
+}
+
+.data ul{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0;
+   margin:0;
+   list-style-type:decimal;
+}
+
+.data ul li{
+  margin-bottom: 20px;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.data ul li .edit{
+  width: 80px;
+  height: 30px;
+  background: orange;
+  border:none;
+  font-family: 'Poppins';
+  font-size: 15px;
+  color: white;
+  margin-right: -50px;
+  transition: background .3s;
+  cursor: pointer;
+  padding: 0 5px;
+
+}
+.data ul li .remove{
+  width: 80px;
+  height: 30px;
+  background: red;
+  border:none;
+  font-family: 'Poppins';
+  font-size: 15px;
+  color: white;
+  transition: background .3s;
+  cursor: pointer;
+  padding: 0 5px;
+}
+
+.data ul li button:hover{
+  background: grey;
+  transition: background .3s;
+}
+.data ul li p{
+  display: inline-block;
+  font-family: 'Poppins';
+  font-size: 15px;
+  color: black;
+  text-transform: capitalize;
+}

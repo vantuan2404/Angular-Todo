@@ -1,0 +1,9 @@
+<div class="data">
+  <ul>
+    <li *ngFor="let item of dataRender">
+      <p>{{item}}</p>
+      <button class="edit" (click)="editing($event)">Edit</button>
+      <button class="remove" (click)="removing($event)">Remove</button>
+      </li>
+  </ul>
+</div>
